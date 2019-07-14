@@ -1,0 +1,24 @@
+﻿<Page x:Class="Library_Management.help_page"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Library_Management"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="help_page">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF7E4D4D" Offset="0"/>
+                <GradientStop Color="#FFEAABAB" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="270" Margin="10,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="280" FontFamily="SimHei" FontSize="16"><Run Text="Student : 1. Add student."/><LineBreak/><Run Text="&#x9;  2. Edit Student Info."/><LineBreak/><Run Text="&#x9;  3. Search For student."/><LineBreak/><Run Text="&#x9;  4. View Student Request's."/><LineBreak/><Run/><LineBreak/><Run Text="Book : 1. Add Book."/><LineBreak/><Run Text="       2. Edit Book info."/><LineBreak/><Run Text="       3. Lend Book to Student."/><LineBreak/><Run Text="       4. View all Book that are currently"/><LineBreak/><Run Text="given and return Book . "/></TextBlock>
+
+    </Grid>
+</Page>

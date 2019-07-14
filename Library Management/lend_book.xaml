@@ -1,0 +1,50 @@
+﻿<Page x:Class="Library_Management.lend_book"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Library_Management"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="lend_book" Height="499" Width="502">
+
+    <Grid Height="499" Width="502">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="35*"/>
+            <ColumnDefinition Width="110*"/>
+            <ColumnDefinition Width="95*"/>
+            <ColumnDefinition Width="230*"/>
+            <ColumnDefinition Width="32*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="0*"/>
+            <RowDefinition Height="0*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="170*"/>
+            <RowDefinition Height="15*"/>
+            <RowDefinition Height="35*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="35*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="35*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="35*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="39*"/>
+        </Grid.RowDefinitions>
+        <DataGrid x:Name="grid_lend_stu" HorizontalAlignment="Left" Height="170" VerticalAlignment="Top" Width="100" Grid.Row="4" Grid.RowSpan="2" SelectionChanged="grid_lend_stu_SelectionChanged" FontFamily="Simplified Arabic Fixed" Grid.ColumnSpan="2" Margin="25,0,0,0"/>
+        <DataGrid x:Name="grid_lend_books" HorizontalAlignment="Left" Height="170" VerticalAlignment="Top" Width="325" Grid.Row="4" Grid.Column="2" Grid.RowSpan="2" SelectionChanged="grid_lend_books_SelectionChanged" FontFamily="Simplified Arabic Fixed" Grid.ColumnSpan="2"/>
+        <Label x:Name="label" Content="Students" HorizontalAlignment="Left" Margin="26,0,0,0" Grid.Row="3" VerticalAlignment="Top" Height="40" Width="109" FontSize="16" FontWeight="Bold" FontFamily="Stencil" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+        <Label x:Name="label1" Content="Books" HorizontalAlignment="Left" Height="40" Grid.Row="3" VerticalAlignment="Top" Width="230" Grid.Column="2" FontSize="16" FontWeight="Bold" FontFamily="Stencil" Grid.ColumnSpan="2" Margin="40,0,0,0" Grid.RowSpan="2"/>
+        <Label x:Name="label2" Content="Student ID :" Grid.Column="1" HorizontalAlignment="Left" Height="34" Grid.Row="8" VerticalAlignment="Top" Width="110" Grid.RowSpan="2" Margin="0,1,0,0" FontFamily="Trajan Pro"/>
+        <Label x:Name="label2_Copy" Content="Book Name :" Grid.Column="1" HorizontalAlignment="Left" Height="34" Grid.Row="10" VerticalAlignment="Top" Width="109" Margin="1,2,0,0" Grid.RowSpan="2" FontFamily="Trajan Pro"/>
+        <Label x:Name="label2_Copy1" Content="Book Writer :" Grid.Column="1" HorizontalAlignment="Left" Height="34" Grid.Row="12" VerticalAlignment="Top" Width="109" Margin="0,1,0,0" Grid.RowSpan="2" FontFamily="Trajan Pro"/>
+        <Button x:Name="button" Grid.ColumnSpan="2" Content="Confirm" HorizontalAlignment="Left" Height="46" Grid.Row="14" Grid.RowSpan="2" VerticalAlignment="Top" Width="195" Click="button_Click" Grid.Column="1" FontSize="13.333" FontStyle="Italic" FontFamily="Segoe UI Black"/>
+        <TextBox x:Name="lend_stuName" Grid.Column="3" HorizontalAlignment="Left" Height="34" Margin="0,1,0,0" Grid.Row="8" Grid.RowSpan="2" TextWrapping="Wrap" VerticalAlignment="Top" Width="230" IsEnabled="False" FontSize="16" FontWeight="Bold"/>
+        <TextBox x:Name="lend_bookName" Grid.Column="3" HorizontalAlignment="Left" Height="34" Margin="0,2,0,0" Grid.Row="10" Grid.RowSpan="2" TextWrapping="Wrap" VerticalAlignment="Top" Width="230" IsEnabled="False" FontSize="16" FontWeight="Bold"/>
+        <TextBox x:Name="lend_bookWriter" Grid.Column="3" HorizontalAlignment="Left" Height="34" Margin="0,1,0,0" Grid.Row="12" Grid.RowSpan="2" TextWrapping="Wrap" VerticalAlignment="Top" Width="230" IsEnabled="False" FontSize="16" FontWeight="Bold"/>
+    </Grid>
+</Page>

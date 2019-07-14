@@ -1,0 +1,44 @@
+D:\Documents\Stduy\3rd Year\3.1\Visual Studio projects\projects\Library Management\Library Management\bin\Debug\Library Management.exe.config
+D:\Documents\Stduy\3rd Year\3.1\Visual Studio projects\projects\Library Management\Library Management\bin\Debug\Library Management.exe
+D:\Documents\Stduy\3rd Year\3.1\Visual Studio projects\projects\Library Management\Library Management\bin\Debug\Library Management.pdb
+D:\Documents\Stduy\3rd Year\3.1\Visual Studio projects\projects\Library Management\Library Management\obj\Debug\Library Management.csprojResolveAssemblyReference.cache
+D:\Documents\Stduy\3rd Year\3.1\Visual Studio projects\projects\Library Management\Library Management\obj\Debug\MainWindow.g.cs
+D:\Documents\Stduy\3rd Year\3.1\Visual Studio projects\projects\Library Management\Library Management\obj\Debug\App.g.cs
+D:\Documents\Stduy\3rd Year\3.1\Visual Studio projects\projects\Library Management\Library Management\obj\Debug\Library Management_MarkupCompile.cache
+D:\Documents\Stduy\3rd Year\3.1\Visual Studio projects\projects\Library Management\Library Management\obj\Debug\Library Management_MarkupCompile.lref
+D:\Documents\Stduy\3rd Year\3.1\Visual Studio projects\projects\Library Management\Library Management\obj\Debug\MainWindow.baml
+D:\Documents\Stduy\3rd Year\3.1\Visual Studio projects\projects\Library Management\Library Management\obj\Debug\Library Management.g.resources
+D:\Documents\Stduy\3rd Year\3.1\Visual Studio projects\projects\Library Management\Library Management\obj\Debug\Library_Management.Properties.Resources.resources
+D:\Documents\Stduy\3rd Year\3.1\Visual Studio projects\projects\Library Management\Library Management\obj\Debug\Library Management.csproj.GenerateResource.Cache
+D:\Documents\Stduy\3rd Year\3.1\Visual Studio projects\projects\Library Management\Library Management\obj\Debug\Library Management.exe
+D:\Documents\Stduy\3rd Year\3.1\Visual Studio projects\projects\Library Management\Library Management\obj\Debug\Library Management.pdb
+D:\Documents\Stduy\3rd Year\3.1\Visual Studio projects\projects\Library Management\Library Management\obj\Debug\admin_panel.g.cs
+D:\Documents\Stduy\3rd Year\3.1\Visual Studio projects\projects\Library Management\Library Management\obj\Debug\user_panel.g.cs
+D:\Documents\Stduy\3rd Year\3.1\Visual Studio projects\projects\Library Management\Library Management\obj\Debug\admin_panel.baml
+D:\Documents\Stduy\3rd Year\3.1\Visual Studio projects\projects\Library Management\Library Management\obj\Debug\user_panel.baml
+D:\Documents\Stduy\3rd Year\3.1\Visual Studio projects\projects\Library Management\Library Management\obj\Debug\student.g.cs
+D:\Documents\Stduy\3rd Year\3.1\Visual Studio projects\projects\Library Management\Library Management\obj\Debug\student.baml
+D:\Documents\Stduy\3rd Year\3.1\Visual Studio projects\projects\Library Management\Library Management\obj\Debug\search.g.cs
+D:\Documents\Stduy\3rd Year\3.1\Visual Studio projects\projects\Library Management\Library Management\obj\Debug\search.baml
+D:\Documents\Stduy\3rd Year\3.1\Visual Studio projects\projects\Library Management\Library Management\obj\Debug\add_student.g.cs
+D:\Documents\Stduy\3rd Year\3.1\Visual Studio projects\projects\Library Management\Library Management\obj\Debug\add_student.baml
+D:\Documents\Stduy\3rd Year\3.1\Visual Studio projects\projects\Library Management\Library Management\obj\Debug\add_books.g.cs
+D:\Documents\Stduy\3rd Year\3.1\Visual Studio projects\projects\Library Management\Library Management\obj\Debug\books_view.g.cs
+D:\Documents\Stduy\3rd Year\3.1\Visual Studio projects\projects\Library Management\Library Management\obj\Debug\add_books.baml
+D:\Documents\Stduy\3rd Year\3.1\Visual Studio projects\projects\Library Management\Library Management\obj\Debug\books_view.baml
+D:\Documents\Stduy\3rd Year\3.1\Visual Studio projects\projects\Library Management\Library Management\obj\Debug\req_student.g.cs
+D:\Documents\Stduy\3rd Year\3.1\Visual Studio projects\projects\Library Management\Library Management\obj\Debug\req_student.baml
+D:\Documents\Stduy\3rd Year\3.1\Visual Studio projects\projects\Library Management\Library Management\obj\Debug\student_requestest.g.cs
+D:\Documents\Stduy\3rd Year\3.1\Visual Studio projects\projects\Library Management\Library Management\obj\Debug\student_requestest.baml
+D:\Documents\Stduy\3rd Year\3.1\Visual Studio projects\projects\Library Management\Library Management\obj\Debug\abt_us.g.cs
+D:\Documents\Stduy\3rd Year\3.1\Visual Studio projects\projects\Library Management\Library Management\obj\Debug\help_page.g.cs
+D:\Documents\Stduy\3rd Year\3.1\Visual Studio projects\projects\Library Management\Library Management\obj\Debug\abt_us.baml
+D:\Documents\Stduy\3rd Year\3.1\Visual Studio projects\projects\Library Management\Library Management\obj\Debug\help_page.baml
+D:\Documents\Stduy\3rd Year\3.1\Visual Studio projects\projects\Library Management\Library Management\obj\Debug\my_books.g.cs
+D:\Documents\Stduy\3rd Year\3.1\Visual Studio projects\projects\Library Management\Library Management\obj\Debug\my_books.baml
+D:\Documents\Stduy\3rd Year\3.1\Visual Studio projects\projects\Library Management\Library Management\obj\Debug\user_book_view.g.cs
+D:\Documents\Stduy\3rd Year\3.1\Visual Studio projects\projects\Library Management\Library Management\obj\Debug\user_book_view.baml
+D:\Documents\Stduy\3rd Year\3.1\Visual Studio projects\projects\Library Management\Library Management\obj\Debug\lend_book.g.cs
+D:\Documents\Stduy\3rd Year\3.1\Visual Studio projects\projects\Library Management\Library Management\obj\Debug\lend_book.baml
+D:\Documents\Stduy\3rd Year\3.1\Visual Studio projects\projects\Library Management\Library Management\obj\Debug\admin_book_away.g.cs
+D:\Documents\Stduy\3rd Year\3.1\Visual Studio projects\projects\Library Management\Library Management\obj\Debug\admin_book_away.baml

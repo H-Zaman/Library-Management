@@ -1,0 +1,56 @@
+﻿<Window x:Name="Admin_Panel" x:Class="Library_Management.admin_panel"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Library_Management"
+        mc:Ignorable="d"
+        Title="Admin Panel" Height="563.5" Width="512" Icon="images/logo.png" WindowStartupLocation="CenterScreen" >
+    <Window.Background>
+        <ImageBrush/>
+    </Window.Background>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="125*"/>
+            <ColumnDefinition Width="379*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="images/adminpanel.JPG"/>
+        </Grid.Background>
+        <Menu x:Name="admin_menu" Height="29" VerticalAlignment="Top" FontFamily="Stencil" Grid.ColumnSpan="2">
+            <Menu.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF977777" Offset="0"/>
+                    <GradientStop Color="#FFB7DBF3" Offset="1"/>
+                </LinearGradientBrush>
+            </Menu.Background>
+            <MenuItem Header="Student" BorderBrush="{x:Null}" Height="29">
+                <MenuItem Header="All Student" Click="student_page"/>
+                <Separator/>
+                <MenuItem Header="Search Student" Click="search_click"/>
+                <Separator/>
+                <MenuItem Header="Add Student" Click="add_student_page"/>
+                <Separator/>
+                <MenuItem Header="Student Requestest" Click="student_req" >
+                </MenuItem>
+            </MenuItem>
+            <Separator BorderBrush="#FF060303" BorderThickness="0" Background="#FF0F0707"/>
+            <MenuItem BorderBrush="{x:Null}" Header="Books">
+                <MenuItem Header="View all" Click="view_books"/>
+                <Separator/>
+                <MenuItem Header="Add Book" Click="add_book"/>
+                <Separator/>
+                <MenuItem Header="Lend Book" Click="lendBook"/>
+                <Separator/>
+                <MenuItem Header="Books Away" Click="bookAway"/>
+            </MenuItem>
+            <Separator/>
+            <MenuItem Header="Help" Click="help"/>
+            <Separator/>
+            <MenuItem Header="About Us" Click="abt_us"/>
+            <Separator/>
+            <MenuItem Header="Logout" Click="logout_click" BorderBrush="{x:Null}"/>
+        </Menu>
+        <Frame x:Name="frame" Content="" HorizontalAlignment="Left" Height="499" Margin="0,29,0,0" VerticalAlignment="Top" Width="502" Grid.ColumnSpan="2" NavigationUIVisibility="Hidden"/>
+    </Grid>
+</Window>

@@ -1,0 +1,20 @@
+﻿<Page x:Class="Library_Management.search"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Library_Management"
+      mc:Ignorable="d"
+      Title="search" Height="474.883" Width="400">
+
+    <Grid Margin="0,0,1,1">
+        <Label x:Name="label1" Content="Student Name :" HorizontalAlignment="Left" Height="44" Margin="10,29,0,0" VerticalAlignment="Top" Width="140" FontFamily="Simplified Arabic Fixed" FontSize="16"/>
+        <Label x:Name="label1_Copy" Content="Student ID:" HorizontalAlignment="Left" Height="44" Margin="10,98,0,0" VerticalAlignment="Top" Width="140" FontFamily="Simplified Arabic Fixed" FontSize="16"/>
+        <TextBox x:Name="txt_search_name" HorizontalAlignment="Left" Height="36" Margin="170,32,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+        <TextBox x:Name="txt_search_id" HorizontalAlignment="Left" Height="36" Margin="170,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+        <Button x:Name="seach_button" Content="Search" HorizontalAlignment="Left" Height="72" Margin="152,163,0,0" VerticalAlignment="Top" Width="218" Click="seach_button_Click" FontFamily="Trajan Pro" FontSize="20"/>
+        <DataGrid x:Name="table_show_2" HorizontalAlignment="Left" Margin="10,309,0,0" VerticalAlignment="Top" Height="155" Width="379"/>
+        <Label x:Name="label" Content="Search Result" HorizontalAlignment="Left" Height="43" Margin="105,261,0,0" VerticalAlignment="Top" Width="167" FontSize="18.667" FontWeight="Bold" FontFamily="Stencil"/>
+
+    </Grid>
+</Page>
